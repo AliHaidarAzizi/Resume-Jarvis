@@ -1,9 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Helvetica Neue", Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     color: #000;
     background-color: #ffffff;
+
+
+}
+
+main {
+    margin-left: 40px;
 }
 
 h1 {
@@ -98,9 +108,8 @@ figcaption {
 
 .gradient-text {
     background: -webkit-linear-gradient(135deg, #bb36f9 60%, #f2b33d);
-    background-clip: text;
     -webkit-text-fill-color: transparent;
-
+    -webkit-background-clip: text;
 }
 
 #username {
