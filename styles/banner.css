@@ -97,9 +97,11 @@ main {
 .title-box {
     height: 200px;
     flex-basis: 65%;
-    font-size: 96px;
+    font-size: 6em;
+    background-color: transparent;
 
 }
+
 
 .content-box {}
 
@@ -145,6 +147,7 @@ main {
     width: 80px;
     background-color: transparent;
     border: 20px solid #3256A1;
+    margin-right: 20px;
 }
 
 .sidebar-footer-right {
@@ -153,5 +156,6 @@ main {
     border-radius: 50%;
     background-color: transparent;
     border: 20px solid #ffffff;
+    margin-left: 20px;
 
 }
